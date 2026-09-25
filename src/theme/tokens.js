@@ -1,0 +1,41 @@
+export const tokens = {
+  colors: {
+    brand: "#0b6e99",
+    accent: "#d96c06",
+    success: "#2f7d32",
+    warning: "#a45a00",
+    error: "#b3261e",
+    lightBackground: "#f5f8fa",
+    lightSurface: "#ffffff",
+    lightText: "#17212b",
+    darkBackground: "#17212b",
+    darkSurface: "#243442",
+    darkText: "#f2f6f8",
+    darkMuted: "#b7c7d1",
+    focus: "#f2a900",
+  },
+  spacing: {
+    xsmall: "6px",
+    small: "12px",
+    medium: "20px",
+    large: "32px",
+    xlarge: "48px",
+  },
+  radius: {
+    small: "4px",
+    medium: "10px",
+    large: "18px",
+  },
+  typography: {
+    family: "Georgia, 'Times New Roman', serif",
+    bodyFamily: "'Trebuchet MS', 'Segoe UI', sans-serif",
+    headingWeight: 700,
+    bodySize: "16px",
+    bodyLineHeight: "1.5",
+  },
+  breakpoints: {
+    small: 600,
+    medium: 900,
+    large: 1200,
+  },
+};

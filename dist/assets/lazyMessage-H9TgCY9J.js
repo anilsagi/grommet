@@ -1,0 +1,1 @@
+var e=`Loaded dynamically!`;export{e as lazyMessage};

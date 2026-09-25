@@ -1,0 +1,125 @@
+.form-demo {
+	box-sizing: border-box;
+	min-height: 100%;
+	color: #27313d;
+	font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.form-demo h1,
+.form-demo h2,
+.form-demo h3,
+.form-demo p {
+	margin: 0;
+}
+
+.form-demo h1 {
+	font-size: 48px !important;
+	line-height: 1.1 !important;
+	margin: 0 !important;
+}
+
+.form-demo h2 {
+	font-size: 32px !important;
+	line-height: 1.2 !important;
+	margin: 0 !important;
+}
+
+.form-demo h3 {
+	font-size: 24px !important;
+	line-height: 1.25 !important;
+	margin: 0 !important;
+}
+
+.form-demo__topbar {
+	flex: 0 0 56px;
+	box-sizing: border-box;
+	padding: 0 28px;
+	border-bottom: 1px solid #d9e0e7;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background: #fff;
+}
+
+.form-demo__content {
+	box-sizing: border-box;
+	flex: 0 0 auto;
+	width: min(1180px, 100%);
+	margin: 0 auto;
+	padding: 48px 32px 72px;
+}
+
+.form-demo__intro {
+	box-sizing: border-box;
+	min-height: 136px;
+	border-left: 4px solid #0877e8;
+	padding-left: 18px;
+}
+
+.form-demo__intro h1,
+.form-demo__columns h2 {
+	font-family: Georgia, serif;
+	color: #27313d;
+}
+
+.form-demo__columns {
+	min-width: 0;
+	align-items: stretch;
+}
+
+.form-demo__registration,
+.form-demo__filters {
+	min-width: 0;
+	padding: 24px;
+	border: 1px solid #d9e0e7;
+	background: #fbfcfd;
+}
+
+.form-demo__registration .grommetux-form-field,
+.form-demo__filters .grommetux-form-field {
+	min-width: 0;
+	flex: 1;
+}
+
+.form-demo__extra-controls {
+	border-top: 1px solid #d9e0e7;
+	padding-top: 20px;
+}
+
+.form-demo__results {
+	border-top: 1px solid #d9e0e7;
+	padding-top: 16px;
+}
+
+.form-demo__results--near-search {
+	padding-bottom: 8px;
+}
+
+.form-demo__result {
+	border-left: 3px solid #f0a202;
+	background: #fff;
+}
+
+@media (max-width: 850px) {
+	.form-demo__content {
+		padding: 32px 16px 48px;
+	}
+
+	.form-demo h1 {
+		font-size: 38px !important;
+	}
+
+	.form-demo h2 {
+		font-size: 28px !important;
+	}
+
+	.form-demo__columns {
+		flex-direction: column;
+	}
+
+	.form-demo__registration,
+	.form-demo__filters {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
